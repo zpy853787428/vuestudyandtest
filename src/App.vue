@@ -1,15 +1,17 @@
 <template>
   <div>
-    <ListRender></ListRender>
+    <MoneyFilter></MoneyFilter>
   </div>
 </template>
 
 <script>
-import ListRender  from "@/components/ListRender";
+import MoneyFilter from './components/MoneyFilter'
+// import MouseAndKeyboardListener from './components/MouseAndKeyboardListener'
 export default {
   name: 'App',
   components: {
-    ListRender
+    MoneyFilter
+    // MouseAndKeyboardListener
   }
 }
 </script>
