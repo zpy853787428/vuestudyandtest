@@ -1,17 +1,19 @@
 <template>
   <div>
-    <MoneyFilter></MoneyFilter>
+    <TransitionAndAnimate></TransitionAndAnimate>
   </div>
 </template>
 
 <script>
-import MoneyFilter from './components/MoneyFilter'
+// import MoneyFilter from './components/MoneyFilter'
 // import MouseAndKeyboardListener from './components/MouseAndKeyboardListener'
+import TransitionAndAnimate from './components/TransitionAndAnimate'
 export default {
   name: 'App',
   components: {
-    MoneyFilter
+    // MoneyFilter
     // MouseAndKeyboardListener
+    TransitionAndAnimate
   }
 }
 </script>
